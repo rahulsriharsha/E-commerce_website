@@ -16,6 +16,8 @@
   border: 1px solid black;
   padding: 20px;
   background-color: #e9ebed;
+  background-image: url("http://www.freshworksmedia.com/uploads/1/8/6/1/1861318/brand_orig.jpg");
+  background-size: cover;
 }
 
 .submit{
@@ -36,6 +38,8 @@
   background-color: #e9ebed;
   padding: 20px;
   border: 1px solid black;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGV5Q7dDoK2qjblTOTMVqigih9UrU9tC171ETJX8KEWg&usqp=CAU&ec=48665701");
+  background-size: cover;
 }
 
 .dumbText{
@@ -58,6 +62,12 @@
   margin: 0 auto;
   border-radius: 30px;
 }
+
+.productPic{
+  background-image: url("http://www.chekantrading.com/images/raznoe/electro.jpg");
+  color: rgb(0, 0, 0);
+}
+
 
 /*.my-button{
   padding: 10px 20px;

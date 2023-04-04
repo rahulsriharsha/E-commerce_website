@@ -87,42 +87,40 @@ export default function Login(props) {
         :
         <Form onSubmit={(e) => authenticate(e)}>
             <h1 class="text-center">Log In</h1>
-            <div class="form-container1">
-            <Form.Group controlId="userEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control 
-                    type="email" 
-                    placeholder="Enter your email" 
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                />
-            </Form.Group>
-            <Form.Group controlId="password">
-                <Form.Label>Password</Form.Label>
-                <Form.Control 
-                    type="password" 
-                    placeholder="Enter your password" 
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
-                />
-            </Form.Group>                
-            </div>
+                <div class="form-container1">
+                    <Form.Group controlId="userEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control 
+                            type="email" 
+                            placeholder="Enter your email" 
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
+                        />
+                    </Form.Group>
+                    <Form.Group controlId="password">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control 
+                            type="password" 
+                            placeholder="Enter your password" 
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            required
+                        />
+                    </Form.Group>                
+                </div>
 
-            <div class="form-container2">
-             { isActive ? 
-                 <Button variant="primary" type="submit" id="submitBtn" class="my-button">
-                     Submit
-                 </Button>
-                 : 
-                 <Button variant="danger" type="submit" id="submitBtn" class="my-button"disabled>
-                     Submit
-                 </Button>
-             }
-                
-            </div>
-
+                <div class="form-container2">
+                 { isActive ? 
+                     <Button variant="primary" type="submit" id="submitBtn" class="my-button">
+                         Submit
+                     </Button>
+                     : 
+                     <Button variant="danger" type="submit" id="submitBtn" class="my-button"disabled>
+                         Submit
+                     </Button>
+                 }  
+                </div>
         </Form>
     )
 }

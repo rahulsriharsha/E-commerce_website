@@ -10,7 +10,7 @@ export default function ProductsCard({productsProp}) {
 
 
     return (
-                <Card className="cardHighlight p-3">
+                <Card className="cardHighlight p-3 productPic">
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
                         <Card.Subtitle>Description:</Card.Subtitle>
