@@ -1,0 +1,54 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardHighlight {
+  min-height: 100%;
+}
+
+.form-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.submit{
+  justify-content: center;
+}
+
+.form-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: lightskyblue;
+}
+
+.textBox{
+  background-color: lightgray;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.dumbText{
+  text-align: center;
+}
+
+.dumbButton{
+  text-align: center;
+  background-color: lightskyblue;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+/*.my-button{
+  padding: 10px 20px;
+}*/
