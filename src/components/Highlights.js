@@ -8,7 +8,7 @@ export default function Highlights() {
 				<Card className="cardHighlight p-3">
 			      <Card.Body>
 			        <Card.Title>
-			        	<h2>One-Stop Online Marketplace</h2>
+			        	<h2 class="text-center">One-Stop Online Marketplace</h2>
 			        </Card.Title>
 			        <Card.Text>
 			          A platform that offers a wide variety of products from different brands and sellers. It could feature categories such as fashion, beauty, home and garden, electronics, and toys, and allow customers to browse and compare prices, read reviews, and make purchases directly from the website.

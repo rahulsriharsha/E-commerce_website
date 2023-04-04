@@ -15,7 +15,7 @@
   justify-content: center;
   border: 1px solid black;
   padding: 20px;
-  background-color: lightgray;
+  background-color: #e9ebed;
 }
 
 .submit{
@@ -29,11 +29,11 @@
   justify-content: center;
   border: 1px solid black;
   padding: 20px;
-  background-color: lightskyblue;
+  background-color: #b2b4b6;
 }
 
-.textBox{
-  background-color: lightgray;
+.textBox{ 
+  background-color: #e9ebed;
   padding: 20px;
   border: 1px solid black;
 }
@@ -44,7 +44,7 @@
 
 .dumbButton{
   text-align: center;
-  background-color: lightskyblue;
+  background-color: #b2b4b6;
   padding: 20px;
   border: 1px solid black;
 }
