@@ -21,7 +21,7 @@ export default function Highlights() {
 				<Card className="cardHighlight p-3">
 			      <Card.Body>
 			        <Card.Title>
-			        	<h2>Curated Luxury Shopping Experience</h2>
+			        	<h2 class="text-center">Curated Luxury Shopping Experience</h2>
 			        </Card.Title>
 			        <Card.Text>
 			          This website could focus on high-end products and offer a personalized shopping experience for customers. It could feature designer brands, limited edition items, and exclusive collections, and offer services such as personal stylists, custom fittings, and luxury gift wrapping.
@@ -34,7 +34,7 @@ export default function Highlights() {
 				<Card className="cardHighlight p-3">
 			      <Card.Body>
 			        <Card.Title>
-			        	<h2>Specialty Online Store</h2>
+			        	<h2 class="text-center">Specialty Online Store</h2>
 			        </Card.Title>
 			        <Card.Text>
 			          This website could specialize in a particular product category or niche market, offering a unique and focused shopping experience. It could feature products such as organic and natural foods, handmade artisanal crafts, or vintage and antique items, and offer educational resources and community forums for customers with shared interests.

@@ -9,9 +9,11 @@ export default function Banner({data}) {
     return (
         <Row>
             <Col>
-                <h1>{title}</h1>
-                <p>{content}</p>
-                <Link to={destination}>{label}</Link>
+                <h1 class="text-center">{title}</h1>
+                <p class="text-center">{content}</p>
+                <div class="text-center orderButton">
+                    <Link to={destination}>{label}</Link>
+                </div>
             </Col>
         </Row>
     )

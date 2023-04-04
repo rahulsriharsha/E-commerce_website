@@ -49,6 +49,16 @@
   border: 1px solid black;
 }
 
+.orderButton {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
 /*.my-button{
   padding: 10px 20px;
 }*/
