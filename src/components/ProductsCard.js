@@ -24,7 +24,7 @@ export default function ProductsCard({productsProp}) {
 }
 
 ProductsCard.propTypes = {
-   products : PropTypes.shape({
+    products : PropTypes.shape({
         name: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         price: PropTypes.number.isRequired
